@@ -13,3 +13,6 @@ function updateScrollInfo() {
 
 window.addEventListener('scroll', updateScrollInfo);
 window.addEventListener('load', updateScrollInfo);
+
+// Add this line to update the badge when the content script is first loaded
+updateScrollInfo();
